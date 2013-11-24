@@ -13,4 +13,17 @@ includes: one basic page with editable content areas and navigation templates.
 - topbar template
 
 
-# this is very much "beta" not finished all that jazz. 
+**very much beta/alpha**.  there are some edit mode clashes (nothing big just slow to load) I'll fix all these when I have time 
+and only if I don't move on to foundation 5 before hand.  Also only one template/page type is fully editable the rest
+just have one content area to add too. 
+
+sample screenie  
+
+**Nav Templates**
+![Templates](./screenshots/templates.png)  
+**Button Group Right**
+![Button right](./screenshots/button-group-right.png)  
+**Full Width Top Bar**
+![TopBar](./screenshots/full-width-topbar.png)  
+**Contain to grid Top-bar**
+![contain to grid](./screenshots/topbar-contain-to-grid.png)
