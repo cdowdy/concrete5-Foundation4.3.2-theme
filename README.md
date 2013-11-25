@@ -15,7 +15,10 @@ includes: one basic page with editable content areas and navigation templates.
 
 **very much beta/alpha**.  there are some edit mode clashes (nothing big just slow to load) I'll fix all these when I have time 
 and only if I don't move on to foundation 5 before hand.  Also only one template/page type is fully editable the rest
-just have one content area to add too. ooooo and the topbar dropdown is wonky. 
+just have one content area to add too. ooooo and the topbar dropdown is wonky.  
+  
+ccm.base.js, ccm.base.css, and conrete5 jquery are only loaded for "registered" (logged in) users.  jquery v1.10.2 is loaded 
+by the theme when not logged in.  
 
 sample screenie  
 
