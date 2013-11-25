@@ -1,7 +1,7 @@
 concrete5-Foundation4.3.2-theme
 ===============================
 
-Concrete5 Foundation 4.3.2 responsive theme.  
+Concrete5 Foundation 4.3.2 responsive theme.  Not styled. Basic Zurb Foundation Styles and html template structure.  
 
 includes: one basic page with editable content areas and navigation templates. 
 
@@ -19,11 +19,15 @@ just have one content area to add too. ooooo and the topbar dropdown is wonky.
 
 sample screenie  
 
-**Nav Templates**
-![Templates](./screenshots/templates.png)  
-**Button Group Right**
-![Button right](./screenshots/button-group-right.png)  
-**Full Width Top Bar**
-![TopBar](./screenshots/full-width-topbar.png)  
-**Contain to grid Top-bar**
-![contain to grid](./screenshots/topbar-contain-to-grid.png)
+**Nav Templates**  
+![Templates](./screenshots/templates.png)    
+**Button Group Right**  
+![Button right](./screenshots/button-group-right.png)    
+**Button Mobile View**      
+![responsive button](./screenshots/button-responsive.png)      
+**Full Width Top Bar**      
+![TopBar](./screenshots/full-width-topbar.png)     
+**Top Bar Mobile View**    
+![topresponsive](./screenshots/top-responsive.png)  
+**Contain to grid Top-bar**  
+![contain to grid](./screenshots/topbar-contain-to-grid.png)  
