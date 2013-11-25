@@ -23,10 +23,5 @@ defined('C5_EXECUTE') or die('Access_Denied');
   <script>
     $(document).foundation();
   </script>
-  <?php
-    $html = Loader::helper('html');
-    $this->addFooterItem($html->javascript('foundation.min.js'));
-  ?>
-  <?php Loader::element('footer_required'); ?>
-</body>
+ <script src="<?php echo $this->getThemePath(); ?>/js/foundation.min.js"></script>
 </html>
