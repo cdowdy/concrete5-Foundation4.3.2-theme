@@ -89,10 +89,10 @@ var CCM_REL = "<?php  echo DIR_REL?>";
 $html = Loader::helper('html');
 if ($u->isRegistered()) {
 	$this->addHeaderItem($html->css('ccm.base.css'), 'CORE');
-	
-	$this->addHeaderItem($html->javascript('ccm.base.js', false, true), 'CORE');
+	$this->addHeaderItem($html->javascript('jquery.js'), 'CORE');
+	$this->addHeaderItem($html->javascript('ccm.base.js'), 'CORE');
 }
-$this->addHeaderItem($html->javascript('jquery.js'), 'CORE');
+
 
 $favIconFID=intval(Config::get('FAVICON_FID'));
 $appleIconFID =intval(Config::get('IPHONE_HOME_SCREEN_THUMBNAIL_FID'));
