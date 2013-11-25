@@ -19,10 +19,14 @@ defined('C5_EXECUTE') or die('Access_Denied');
       </div>
     </div>
   </footer>
-  
-  <script>
-    $(document).foundation();
-  </script>
+ 
+
+<script>
+   document.write('<script src=' +
+   ('__proto__' in {} ? '<?php echo $this->getThemePath(); ?>/js/vendor/zepto' : '<?php echo $this->getThemePath(); ?>/js/vendor/jquery') +
+   '.js><\/script>')
+</script>
+  <script> $(document).ready(function() { $(document).foundation(); }); </script>
  <script src="<?php echo $this->getThemePath(); ?>/js/foundation.min.js"></script>
  <?php Loader::element('footer_required'); ?>
 </html>
